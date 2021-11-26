@@ -12,6 +12,6 @@ char* StrCpy(char *src)
 	temp[i]=0;
 	return temp;
 }
-	
+//远程Edit	
 
 
