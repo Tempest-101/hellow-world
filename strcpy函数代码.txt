@@ -1,0 +1,17 @@
+#include<malloc.h>
+char* StrCpy(char *src)
+{
+	int n=0;
+	int i;
+	while(src+n){n++;}
+	char *temp=malloc((n+1)*sizeof(char*));
+	for(i=0;i<n;i++)
+	{
+		temp[i]=src[i];
+	}
+	temp[i]=0;
+	return temp;
+}
+	
+
+
